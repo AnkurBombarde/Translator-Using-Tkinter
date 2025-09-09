@@ -1,4 +1,4 @@
-#  Real-Time Language Translator
+#  Language Translator using Tkinter
 
 A modern, user-friendly desktop application built with **Python** and **Tkinter** that provides real-time language translation using the **Google Translate API**.
 
@@ -32,3 +32,4 @@ A modern, user-friendly desktop application built with **Python** and **Tkinter*
 
 # Install required dependencies
 pip install googletrans==4.0.0-rc1
+
