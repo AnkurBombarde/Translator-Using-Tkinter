@@ -1,27 +1,34 @@
-# Translator-Using-Tkinter
-A modern, user-friendly desktop application built with Python and Tkinter that provides real-time language translation using Google Translate API.
+#  Real-Time Language Translator
 
-Features
-Multi-language Support: Translate between 100+ languages supported by Google Translate
-Intuitive Interface: Clean, modern GUI with a professional color scheme
-Text Swapping: Easily swap source and target languages with a single click
-Error Handling: Graceful error handling for translation issues
+A modern, user-friendly desktop application built with **Python** and **Tkinter** that provides real-time language translation using the **Google Translate API**.
 
-Technical Details
-Built with Python's Tkinter for the graphical interface
-Utilizes the googletrans library for translation services
-Features custom styling with a cohesive color palette
-Includes interactive elements with hover effects
-Implements proper widget organization and spacing
+---
 
-Usage
-Enter text in the source text area
-Select source and target languages from the dropdown menus
-Click the "Translate" button to see the translation
-Use the "⇄" button to swap languages and texts
-Use the "Clear" button to reset both text areas
+##  Features
+-  **Multi-language Support**: Translate between 100+ languages supported by Google Translate  
+-  **Intuitive Interface**: Clean, modern GUI with a professional color scheme  
+-  **Text Swapping**: Easily swap source and target languages with a single click  
+-  **Error Handling**: Easy handling of translation issues  
 
-Requirements
-Python 3.x
-tkinter (usually included with Python)
-googletrans==4.0.0-rc1
+---
+
+## Usage
+1. Enter text in the source text area  
+2. Select source and target languages from the dropdown menus  
+3. Click the **"Translate"** button to see the translation  
+4. Use the **"⇄"** button to swap languages and texts  
+5. Use the **"Clear"** button to reset both text areas  
+
+---
+
+##  Requirements
+- **Python 3.x**  
+- **tkinter** (usually included with Python)  
+- **googletrans==4.0.0-rc1**  
+
+---
+
+
+
+# Install required dependencies
+pip install googletrans==4.0.0-rc1
